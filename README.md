@@ -23,3 +23,23 @@
 **Task_1_GB**: In Task 1, two approaches to the cash register system that gives change to the customer were implemented:
 the greedy algorithm and the dynamic programming algorithm. The greedy algorithm is fast and simple; it always starts with the largest denominations of coins available. 
 The dynamic programming approach finds the optimal solution with the minimum number of coins. Both methods have their advantages - it all depends on the context of the task: speed or accuracy
+
+**Task_2_UA**\
+У завданні 2 обчислено інтеграл функції **f(x) = x²** на інтервалі **[0, 2]** двома способами:
+1. **Метод Монте-Карло:** `2.669853755948094`
+2. **Метод quad (точне значення):** `2.666666666666667`
+3. **Похибка quad:** `2.960594732333751e-14` (тобто майже нульова)
+
+Результати дуже близькі, хоча Монте-Карло трохи перестарався, але це нормально, бо метод випадковий і точність залежить від кількості точок.
+
+**Висновок:**
+
+**quad** - ідеальний для точних обчислень, коли функція відома і гладенька.\
+**Монте-Карло** - класний варіант для складних інтегралів.
+
+**Task_2_GB**\
+The integral of f(x) = x² over [0, 2] was calculated using two methods:
+1. Monte Carlo method: 2.669853755948094
+2. quad (exact value): 2.666666666666667 with an error of 2.960594732333751e-14
+Conclusion: The results are nearly identical; quad is best for precise functions, while Monte Carlo works well for complex or unknown integrals.
+
